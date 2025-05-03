@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certifications | Dustin Morris</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h1, h2, h4 {
+      color: #f5c518;
+    }
+    .navbar, footer {
+      background-color: #111;
+    }
+    .navbar-brand, .nav-link {
+      color: #f5c518 !important;
+    }
+    .nav-link.active, .nav-link:hover {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .card {
+      background-color: #1c1c1c;
+      border: 1px solid #f5c518;
+      margin-bottom: 2rem;
+      color: #fff;
+    }
+    .card-title {
+      color: #f5c518;
+    }
+    .card img {
+      max-height: 200px;
+      object-fit: contain;
+      margin-bottom: 1rem;
+      cursor: pointer;
+    }
+    footer {
+      color: #f5c518;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Dustin Morris</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon bg-light"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+          <li class="nav-item"><a class="nav-link active" href="certifications.html">Certifications</a></li>
+          <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="downloads.html">Downloads</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="py-5">
+  <div class="container">
+    <h1 class="text-center mb-5">Certifications</h1>
+
+    <!-- Certification Cards -->
+    <div class="card p-4">
+      <div class="row g-4 align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="images/network_pro_cert.png" alt="Network Pro" data-bs-toggle="modal" data-bs-target="#modalNetwork">
+        </div>
+        <div class="col-md-8">
+          <h4 class="card-title">TestOut Network Pro Certification</h4>
+          <p>The TestOut Network Pro Certification demonstrates proficiency in essential networking skills including cabling, switch/router configuration, DHCP, DNS, VoIP, and virtual networking. The certification is 100% performance-based.</p>
+          <ul>
+            <li>Deploy and configure wired/wireless devices</li>
+            <li>Assign IP addresses, DNS, and DHCP</li>
+            <li>Configure basic switches and routers</li>
+            <li>Implement virtual networking and VoIP</li>
+            <li>Use Remote Desktop and perform server backups</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card p-4">
+      <div class="row g-4 align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="images/pc_pro_cert.png" alt="PC Pro" data-bs-toggle="modal" data-bs-target="#modalPC">
+        </div>
+        <div class="col-md-8">
+          <h4 class="card-title">TestOut PC Pro Certification</h4>
+          <p>The TestOut PC Pro Certification proves hands-on skills in managing PC hardware, software, OS installation, security tools, virtualization, and mobile devices. It is fully performance-based.</p>
+          <ul>
+            <li>Install and manage operating systems</li>
+            <li>Configure hardware and storage components</li>
+            <li>Secure desktops and implement malware defense</li>
+            <li>Troubleshoot networking and OS issues</li>
+            <li>Virtualization, remote access, and disaster recovery</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card p-4">
+      <div class="row g-4 align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="images/security_pro_cert.png" alt="Security Pro" data-bs-toggle="modal" data-bs-target="#modalSecurity">
+        </div>
+        <div class="col-md-8">
+          <h4 class="card-title">TestOut Security Pro Certification</h4>
+          <p>The TestOut Security Pro Certification validates advanced knowledge in computer and network security. Areas include identity management, system hardening, encryption, risk auditing, and physical/network defense.</p>
+          <ul>
+            <li>Manage identities and strengthen authentication</li>
+            <li>Harden devices and control physical access</li>
+            <li>Implement encryption and application defenses</li>
+            <li>Conduct logging, auditing, and risk assessments</li>
+            <li>Virtualization and secure system configuration</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Modals -->
+<div class="modal fade" id="modalNetwork" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-body text-center">
+        <img src="images/network_pro_cert.png" class="img-fluid rounded" alt="Network Pro Full View">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalPC" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-body text-center">
+        <img src="images/pc_pro_cert.png" class="img-fluid rounded" alt="PC Pro Full View">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalSecurity" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-body text-center">
+        <img src="images/security_pro_cert.png" class="img-fluid rounded" alt="Security Pro Full View">
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="py-4 text-center">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Dustin Morris. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
